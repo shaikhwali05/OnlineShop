@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        thead,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+            border-spacing: 0px;
+        }
+        th {
+            color: aqua;
+        }
+        thead{
+            background-color: blue;
+        }
+        tr{
+            color: blueviolet;
+            text-align: center;
+        }
+        .back{
+            background-color: brown;
+        }
+        td{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th colspan="3">House Stack</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="back">Eddad Stark</td>
+                <td class="back">Jon Snow</td>
+                <td class="back">Arya Stark</td>
+            </tr>
+            <tr>
+                <td>No direwolf</td>
+                <td colspan="2">Has direwolf</td>
+            </tr>
+            <tr>
+                
+                <td colspan="1.5">No odd</td>
+                <td colspan="1.5">No odd</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

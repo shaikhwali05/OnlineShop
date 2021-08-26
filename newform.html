@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div class="container">
+    <form action="form.php">
+    <div id="hform">  
+    <h1 id="pform">
+        PAYMENT FORM
+    </h1>
+    </div>
+    <p >Note : The required fields are followed by *</p>
+    
+        
+    
+    
+    <div>
+        <label for="fname">First Name * : </label>
+        <input type="text" name="fname" id="fname" required placeholder="Enter first name">
+    
+    </div>
+    <br>
+    <div>
+        <label for="lname">
+            Last Name * : 
+        </label>
+        <input type="text" name="lname" id="lname" required placeholder="Enter last name">
+    </div>
+    <br>
+    <div>
+        <label for="telephone">Phone Number *: </label>
+         <input type="number" name="telephone" id="telephone" required placeholder="Enter mobile Number">
+    
+    </div>
+    <br>
+    <div>
+        Select Gender :
+        <label for="male">Male *:</label>
+        <input type="radio" name="male" id="male" required>
+        <label for="female">female *:</label>
+        <input type="radio" name="Female" id="Female" required>
+
+    </div>
+    <br>
+    <div>
+        <label for="mail">Email id *: </label>
+        <input type="email" name="mail" id="mail" required placeholder="Enter email">
+    
+
+    </div>
+    <br>
+    <div>
+        <label for="birthdayy">Birth Date *: </label>
+        <input type="date" name="birthday" id="birthday" required placeholder="Enter Date">
+    
+    </div>
+    
+    <br>
+
+    <fieldset>
+        <legend>Payment Details</legend>
+    <h2>Payment Gateway</h2>
+    <div>
+        Card Type *:
+        <select name="option" id = "option">
+            <option value="--Select Payment Option">
+                Select Payment Option
+            </option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Mastercard</option>
+
+        </select>
+
+    </div>
+    <br>
+    <div>
+    Card Number *: 
+    <input type="number" name = "Card" id ="card"  placeholder="Card Number" required>
+    
+    Expiry Date *:
+    <input type="date" name="Expire_date" id="Expiry_date" required>
+    CVV *:
+    <input type="password" name="pass" id = "pass" required placeholder="CVV" required>
+    </div>
+    <br>
+    <div >
+        <input type="button" id="imp" name="submit" value="Pay now">
+    </div>
+    </fieldset>
+
+
+
+
+
+
+</form>
+</div>    
+</body>
+</html>

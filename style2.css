@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    border: 1px solid white;
+    padding: 0px;
+}
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 15px 35px;
+}
+#pform{
+    text-align: center;
+}
+#pform:hover{
+    color:purple ;
+}
+#hform{
+    background-color: rgb(226, 205, 205);
+    border-radius: 5px;
+}
+#hform:hover{
+    color: purple;
+}
+input[type="text"]
+input[type="number"]
+input[type="radio"]
+input[type="email"]
+input[type="date"]:hover{
+    
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(39, 29, 11);
+    background-color: rgb(38, 216, 210);
+}
+input[type="text"]
+input[type="number"]
+input[type="radio"]
+input[type="email"]
+input[type="date"]:hover{
+    background-color: pink;
+}
+div{
+    background-color:lightgray;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(226, 205, 205);
+}
+h2:hover{
+    color: purple;
+}
+input[type="button"]{
+    background-color: rgb(84, 194, 157);
+    width: 100%;
+    border: none;
+    border: radius 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type="button"] #imp{
+    padding: none;
+    height: 100%;
+    font-size: 100px;
+}
+input:hover{
+    background-color: rosybrown;
+
+}

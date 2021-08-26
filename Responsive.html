@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #first{
+            display: inline-block;
+            width: 23%;
+            background-color: aqua;
+            height: 250px;
+
+        }
+        #second{
+            display: inline-block;
+            width: 25%;
+            background-color: burlywood;
+            height: 250px;
+        }
+        #third{
+            display: inline-block;
+            width: 23%;
+            background-color: cornflowerblue;
+            height: 250px;
+        }
+        #fourth{
+            display: flex;
+            width: 25%;
+            background-color: darkblue;
+            height: 250px;
+        }
+        @media only screen and (max-width: 600px) {
+            #first,#second,#third,#fourth {
+                display:inline;
+                width: 25%;
+                height: 250px;
+            }
+            
+        }
+        @media only screen and (min-width: 600px) {
+            #first,#second,#third,#fourth {
+                display:inline-block;
+                width: 25%;
+            }
+            
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div id="first">
+        <p>First Div</p>
+    </div>
+    <div id="second">
+        <p>Second Div</p>
+    </div>
+    <div id="third">
+        <p>Third Div</p>
+    </div>
+    <div id="fourth">
+        <p>fourt  Div</p>
+    </div>
+    
+    
+</body>
+</html>
